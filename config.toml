@@ -1,0 +1,89 @@
+# hostname (and path) to the root eg. http://spf13.com/
+baseurl = "http://wwcreator.github.io/"
+
+# Site title
+<<<<<<< HEAD
+title = "户枢不蠹"
+=======
+title = "wwcreator Blog"
+>>>>>>> bab71be57f2a8c5320224d6ec92fc9093a1e640c
+
+# Copyright
+copyright = "(c) 2017 wwcreator."
+
+# Language
+languageCode = "en-EN"
+
+# Metadata format
+# "yaml", "toml", "json"
+metaDataFormat = "yaml"
+
+# Theme to use (located in /themes/THEMENAME/)
+theme = "hyde-y"
+
+# Pagination
+<<<<<<< HEAD
+paginate = 17
+=======
+paginate = 10
+>>>>>>> bab71be57f2a8c5320224d6ec92fc9093a1e640c
+paginatePath = "page"
+
+# Enable Disqus integration
+disqusShortname = "http-wwcreator-github-io"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+    category = "categories"
+    archive = "archive"
+
+[author]
+    name = "wwcreator"
+    email = "yuwen_qing@126.com"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # You can use markdown here.
+<<<<<<< HEAD
+    brand = "流水不腐"
+=======
+    brand = "wwcreator"
+>>>>>>> bab71be57f2a8c5320224d6ec92fc9093a1e640c
+    topline = "just be supreme"
+    footline = "code with <i class='fa fa-heart'></i>"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "UA-92175324-1"
+
+    # Sidebar social links.
+    github = "wwcreator" # Your Github profile ID
+ 
+
+[blackfriday]
+    angledQuotes = true
+    fractions = false
+    hrefTargetBlank = false
+    latexDashes = true
+    plainIdAnchors = true
+    extensions = []
+    extensionmask = []
+

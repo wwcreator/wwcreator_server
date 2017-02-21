@@ -1,0 +1,17 @@
+<div class="metas">
+{{ partial "modules/page/date" . }}
+{{ if .IsPage }}
+  {{ with .Params.author }}
+    &middot; {{ $.Site.Data.Strings.byauthor }} {{ . }}
+  {{ end }}
+  &middot; {{ .Site.Data.Strings.metaReadin }} {{ .ReadingTime }} {{ .Site.Data.Strings.metaReadinMinutes }}
+  &middot; ({{ .WordCount }} {{ .Site.Data.Strings.words }})
+  <br>
+  {{ partial "modules/page/tags" . }}
+{{ end }}
+&nbsp;&nbsp;
+<span id="busuanzi_container_page_pv">
+  本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+</span>
+
+</div>
