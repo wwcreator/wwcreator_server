@@ -2,11 +2,7 @@
 baseurl = "http://wwcreator.github.io/"
 
 # Site title
-<<<<<<< HEAD
 title = "户枢不蠹"
-=======
-title = "wwcreator Blog"
->>>>>>> bab71be57f2a8c5320224d6ec92fc9093a1e640c
 
 # Copyright
 copyright = "(c) 2017 wwcreator."
@@ -22,11 +18,7 @@ metaDataFormat = "yaml"
 theme = "hyde-y"
 
 # Pagination
-<<<<<<< HEAD
 paginate = 17
-=======
-paginate = 10
->>>>>>> bab71be57f2a8c5320224d6ec92fc9093a1e640c
 paginatePath = "page"
 
 # Enable Disqus integration
@@ -51,11 +43,7 @@ disqusShortname = "http-wwcreator-github-io"
 #
 [params]
     # You can use markdown here.
-<<<<<<< HEAD
     brand = "流水不腐"
-=======
-    brand = "wwcreator"
->>>>>>> bab71be57f2a8c5320224d6ec92fc9093a1e640c
     topline = "just be supreme"
     footline = "code with <i class='fa fa-heart'></i>"
 

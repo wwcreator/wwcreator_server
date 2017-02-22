@@ -98,6 +98,7 @@ cd themes
 git clone https://GitHub.com/enten/hyde-y
 更加详细的配置，可以参考：
   http://www.gohugo.org/theme/hyde-y/
+  最初按照这个主题的 ReadMe.md 步骤来配置，后续熟练后，可以自己慢调
 ```
 ```
 hugo server --baseURL=http://192.168.x.xx:80 \
@@ -121,7 +122,7 @@ hugo blog 我们已经准备完成，开始创建 GitHub Page。
 ## Step 7. 本地生成静态页面
 ```
 # 注意与本地的区别
-hugo server --baseURL=http://username.github.io \
+hugo  --baseURL=http://username.github.io \
               --buildDrafts \
               --theme=hyde-y
 tree -a
