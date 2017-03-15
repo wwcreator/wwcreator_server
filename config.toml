@@ -46,7 +46,6 @@ disqusShortname = "http-wwcreator-github-io"
     brand = "流水不腐"
     topline = "just be supreme"
     footline = "code with <i class='fa fa-heart'></i>"
-
     # Sidebar position
     # false, true, "left", "right"
     sidebar = "left"

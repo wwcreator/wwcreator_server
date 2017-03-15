@@ -236,9 +236,9 @@ hyde-y/
 ```
 
 而我们主题的样式修改主要更改的文件有：「style.css」、 「layouts」。
-![hyde-y-before](/media/hyde-y-1.PNG)
+![hyde-y-before](/media/hyde-y-1.png)
 **修改后:**
-![hyde-y-after](/media/hyde-y-2.PNG)
+![hyde-y-after](/media/hyde-y-2.png)
 
 ### 更改背景色为黑色：
 ```

@@ -1,1 +1,17 @@
-&nbsp; &nbsp; &nbsp; &nbsp; <a class="toplink" href="#">{{ if and (isset .Site.Params "toplink" ) ( ne .Site.Params.toplink "" ) }}{{ .Site.Params.topLink }}{{ else }}{{ $.Site.Data.Strings.backtotop }}{{ end }}</a>
+
+<script src="/js/jquery.min.js" type="text/javascript"></script>
+<script>
+        $(window).on("scroll",function(e){
+        if($('body').scrollTop() >= 400  ){
+                $('#gotop').show();
+
+
+        }else{
+                $('#gotop').hide();
+        }
+});
+</script>
+<div class="ctrolPanel" id="gotop" style="display:none;width:50px;height:50px;position:fixed;right:25px;top:85%;overflow:hidden;z-index:10000;">
+  <a href="#"><img title="返回顶部" src="/top21.png" /></a>
+</div>
+

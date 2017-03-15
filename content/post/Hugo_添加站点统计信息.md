@@ -37,7 +37,7 @@ vi `hyde-y/layouts/partials/bloc/content/lastupdate.html`
 
 展示效果：
 
-![site-pv](/media/site-pv.PNG)
+![site-pv](/media/site-pv.png)
 
 - 添加页面PV
 
@@ -51,7 +51,7 @@ vi `hyde-y/layouts/partials/bloc/content/metas.html`
 ```
 展示效果：
 
-![page-pv](/media/page-pv.PNG)
+![page-pv](/media/page-pv.png)
 
 ### 结束语
 根据自己的审美，功能来定制主题，首先需要对主题的结构，调用等信息清楚，然后再添加自己的改动。对了，如果大家有 Hugo 的站内搜索功能实现的，务必留言哈。
